@@ -1,0 +1,4 @@
+[12-Nov-2018 02:50:05 America/Chicago] PHP Parse error:  syntax error, unexpected '$correo' (T_VARIABLE) in /home/bluecle1/public_html/php/Index.php on line 6
+[12-Nov-2018 02:57:00 America/Chicago] PHP Parse error:  syntax error, unexpected '$correo' (T_VARIABLE) in /home/bluecle1/public_html/php/Index.php on line 6
+[12-Nov-2018 03:01:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bluecle1/public_html/php/Index.php:22) in /home/bluecle1/public_html/php/Index.php on line 23
+[12-Nov-2018 03:05:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bluecle1/public_html/php/Index.php:24) in /home/bluecle1/public_html/php/Index.php on line 25
