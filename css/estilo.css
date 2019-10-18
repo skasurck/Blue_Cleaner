@@ -52,6 +52,14 @@ body {
     transform: scale(1.1);
    
 }
+.no-subrayado-blanco{
+    text-decoration:none !important;
+    color: #ffffff;
+}
+.no-subrayado-blanco:hover{
+    text-decoration:none !important;
+    color: #677378;
+}
 /*fin de generales*/
 /*navbar*/
 .link-blue-cleaner{
@@ -453,7 +461,7 @@ footer .foot{
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
  .text-footer{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
      color: white;
 }
 }
@@ -466,7 +474,7 @@ footer .foot{
 }
 @media (min-width: 1601px) { 
  .text-footer{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
    
      color: white;
 }
@@ -1119,3 +1127,36 @@ form.form_contact input[type="submit"]:hover{
 .iconos-exelencia{
     width: 30%;
 }
+/* dispositivos pequeños (Telefonos acostados, minimo 576px maximo 768)*/
+@media (max-width: 575.98px) { 
+      .solo-desktop{
+          display: none !important;
+      }
+   }
+  @media (min-width: 576px) and (max-width: 767.98px) {
+      .soloCelular {
+          display: none !important;
+        }   
+  }
+  
+  /*  Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .soloCelular {
+      display: none !important;
+    } 
+  }
+  
+  /*  Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .soloCelular {
+      display: none !important;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+    .soloCelular {
+      display: none !important;
+    }
+  }
+  
