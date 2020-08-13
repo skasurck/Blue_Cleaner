@@ -56,6 +56,14 @@ body {
     text-decoration:none !important;
     color: #ffffff;
 }
+.no-subrayado-azul-claro{
+    text-decoration:none !important;
+    color: #4790db;
+}
+.no-subrayado-azul-claro:hover{
+    text-decoration:none !important;
+    color: #677378;
+}
 .no-subrayado-blanco:hover{
     text-decoration:none !important;
     color: #677378;
@@ -63,6 +71,8 @@ body {
 /*fin de generales*/
 /*navbar*/
 .link-blue-cleaner{
+    margin-left: 40px;
+    font-size: 18px;
     color: #002663;
 }
 .link-blue-cleaner:hover{
@@ -80,6 +90,10 @@ body {
 }
 /*fin navbar*/
 /*slider*/
+.img-central{
+    width: 1600;
+    height: auto;
+}
 .img-slider {
     width: 100%;
     height: calc(90vh - 100px);
@@ -326,12 +340,12 @@ body {
 }
 @media (min-width: 1601px) { 
  .slider-text-1{
-    font-size: 2rem;
+    font-size: 1rem;
      
          
 }
     .slider-text-1 h1{
-    font-size: 4rem;
+    font-size: 2rem;
      color: white;
          
 }
@@ -874,7 +888,7 @@ form.form_contact textarea{
 form.form_contact input[type="submit"]{
     width: 180px;
 	background: #002663;
-	padding: 10px;
+	padding: 2px;
 	border: none;
 	border-radius: 25px;
 
@@ -884,7 +898,7 @@ form.form_contact input[type="submit"]{
 
     color: #fff;
 	font-family: 'Arial';
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 600;
 	cursor: pointer;
 }
@@ -1030,7 +1044,7 @@ form.form_contact input[type="submit"]:hover{
 .icon {
 	color: white;
 	text-decoration: none;
-	padding: .7rem;
+	padding: .3rem;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -1040,10 +1054,10 @@ form.form_contact input[type="submit"]:hover{
 .icon2{
     color: white;
 	text-decoration: none;
-   	padding-top: .7rem;
-    padding-bottom: .7rem;
-    padding-right:2.55rem;
-    padding-left: 1rem;
+   	padding-top: .3rem;
+    padding-bottom: .3rem;
+    padding-right:2.3rem;
+    padding-left: 0.5rem;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
